@@ -9,6 +9,13 @@ public class Barco {
     int sonar;
     String equipo;
 
+
+
+    int posX = 0;
+    int posY = 0;
+    int movX = 5;
+    int movY = 5;
+
     public Barco(String nombre, int velocidad, int potenciaDeFuego, int vida, int sonar, String equipo){
         this.nombre = nombre;
         this.velocidad = velocidad;
@@ -49,4 +56,5 @@ public class Barco {
             this.equipo = equipo;
         }
     }
+
 }
